@@ -6,7 +6,7 @@
 
 **Note:** If you already have an account, you can skip this step.
 
-## 2. Open the CRZ_WORKSHOP_PU repository.
+## 2. Open the CRZ__WORKSHOP repository.
 
 [Click here to open the repository](https://github.com/UNOFFICIALOFFICE/CRZ__WorkShop.git)
 
