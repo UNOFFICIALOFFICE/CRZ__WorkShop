@@ -36,11 +36,7 @@
 
 ### 5.1 QEMU Tools.(Hardware emulator)
 
-    ls $HOME/.local/xPacks/@xpack-dev-tools/qemu-arm/<version>/.content/bin
-
-- Note: Fill in the **version** field with the appropriate version.
-
-   ![](IMGS/image-1.png)
+    ls $HOME/.local/xPacks/@xpack-dev-tools/qemu-arm/8.2.6-1.1/.content/bin
 
    **Out Put**
 
@@ -48,11 +44,8 @@
 
 ### 5.2 GCC Tools (Compiler suite (compiles, links, debug))
 
-    ls $HOME/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/<version>/.content/bin
-
-- Note: Fill in the **version** field with the appropriate version.
-
-   ![](IMGS/image-5.png)
+    ls $HOME/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/14.2.1-1.1.1/.cont
+ent/bin
 
    **Out Put**
 
