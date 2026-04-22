@@ -8,7 +8,7 @@
 
 ## 2. Open the CRZ_WORKSHOP_PU repository.
 
-[Click here to open the repository](https://github.com/Rohan2039/CRZ_Workshop_PU)
+[Click here to open the repository](https://github.com/UNOFFICIALOFFICE/CRZ__WorkShop.git)
 
 ## 3. Create a new codespace.
 
