@@ -6,16 +6,36 @@ MEMORY
 
 _estack = ORIGIN(RAM) + LENGTH (RAM);
 
+_heap_start = _ebss;
+
 SECTIONS
 {
     .CODE :
     {
-        KEEP(*(.isr_vector))
+        *(.isr_vector)
         *(.text)
         *(.rodata)
         *(.after_vectors .after_vectors.*)
         . = ALIGN(4);
         _etext = .;
     }>FLASH
-    
+
+    .DATA :
+    {
+        . = ALIGN(4);
+        _sfdata = LOADADDR(.DATA);
+        _sdata = .;
+        *(.data)
+        . = ALIGN(4);
+        _edata = .;
+    }>RAM AT> FLASH
+
+    .bss :
+    {
+        . = ALIGN(4);
+        _sbss = .;
+        *(.bss)
+        . = ALIGN(4);
+        _ebss = .;
+    }>RAM
 }
