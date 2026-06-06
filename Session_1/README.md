@@ -11,7 +11,7 @@ This repo demonstrates the use case of the volatile keyword through a device dri
 | `crazycontroller` | Executable file that mimics or emulates the hardware controller behavior, allowing the driver to be tested without actual hardware. |
 
 **Steps to Run:**
-1. Write the TransmitConfirmation.c file as outlined.
+1. Follow the instructions and comments provided in `TransmitConfirmation.c` to complete the required implementation.
 2. Run following command.
 
    ```bash
@@ -27,7 +27,7 @@ This repo demonstrates the use case of the volatile keyword through a device dri
 4. Open two terminals:
 5. Run `./crazycontroller` command in one terminal.
 6. Run `./Driver` command in the other.
-7. Modify the pointer in TransmitConfirmation.c to volatile, recompile, and rerun.
+7. Modify the pointer in `TransmitConfirmation.c` to `volatile`, recompile, and rerun.
 ![image](https://github.com/user-attachments/assets/e5829c0c-32a7-4183-85b6-3c6646fcd937)
 
 **Observation** 
