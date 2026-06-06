@@ -12,9 +12,11 @@ This repo demonstrates the use case of the volatile keyword through a device dri
 1. Write the TransmitConfirmation.c file as outlined.
 2. Run following command.
    
-    i. gcc -O3 -o TransmitConfirmation.o -c TransmitConfirmation.c  //which compiles .c file and optimizes it
-   
-    ii. gcc Driver.o TransmitConfirmation.o -o Driver //which links both Driver.o and TransmitConfirmation.o object files and creats an executable file.
+   i. gcc -O3 -o TransmitConfirmation.o -c TransmitConfirmation.c
+   - //which compiles .c file and optimizes it.
+     
+   ii. gcc Driver.o TransmitConfirmation.o -o Driver
+   - //which links both Driver.o and TransmitConfirmation.o object files and creats an executable file.
 4. Open two terminals:
 5. Run ./crazycontroller command in one terminal.
 6. Run ./Driver command in the other.
