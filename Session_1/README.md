@@ -25,8 +25,8 @@ This repo demonstrates the use case of the volatile keyword through a device dri
       - which links both Driver.o and TransmitConfirmation.o object files and creats an executable file.
         
 4. Open two terminals:
-5. Run ./crazycontroller command in one terminal.
-6. Run ./Driver command in the other.
+5. Run `./crazycontroller` command in one terminal.
+6. Run `./Driver command` in the other.
 7. Modify the pointer in TransmitConfirmation.c to volatile, recompile, and rerun.
 ![image](https://github.com/user-attachments/assets/e5829c0c-32a7-4183-85b6-3c6646fcd937)
 
