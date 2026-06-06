@@ -4,9 +4,11 @@
 This repo demonstrates the use case of the volatile keyword through a device driver example.
 
 **Files Overview:**
-1. Driver.o // This is the driver code which is incomplete.
-2. TransmitConfirmation.c // write this txconfirmation function to make driver code complete
-3. crazycontroller // executable file which mimics hardware.
+| File Name | Description |
+|-----------|-------------|
+| `Driver.o` | Driver object file. Contains the compiled driver implementation; the provided driver code is currently incomplete and requires the transmit confirmation functionality to be implemented. |
+| `TransmitConfirmation.c` | Source file where the `TxConfirmation()` function needs to be implemented to complete the driver functionality and handle transmission confirmation callbacks. |
+| `crazycontroller` | Executable file that mimics or emulates the hardware controller behavior, allowing the driver to be tested without actual hardware. |
 
 **Steps to Run:**
 1. Write the TransmitConfirmation.c file as outlined.
